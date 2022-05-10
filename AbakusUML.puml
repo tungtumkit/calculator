@@ -1,0 +1,32 @@
+@startuml
+annotation java.lang.Override
+class AbakusApp
+class AboutDialog
+class AppWnd
+class java.awt.GridBagConstraints
+class java.awt.event.ActionEvent
+class javax.swing.InputVerifier
+class javax.swing.JButton
+class javax.swing.JComponent
+class javax.swing.JFrame
+class javax.swing.JMenu
+class javax.swing.JMenuBar
+class javax.swing.JMenuItem
+class javax.swing.JOptionPane
+class javax.swing.JTextField
+class javax.swing.UIManager
+class others.NewClass
+AbakusApp ..> javax.swing.UIManager
+AppWnd ..> java.lang.Override
+AppWnd ..> java.awt.GridBagConstraints
+AppWnd ..> java.awt.event.ActionEvent
+AppWnd ..> javax.swing.InputVerifier
+AppWnd ..> javax.swing.JButton
+AppWnd ..> javax.swing.JComponent
+AppWnd --|> javax.swing.JFrame
+AppWnd ..> javax.swing.JMenu
+AppWnd ..> javax.swing.JMenuBar
+AppWnd ..> javax.swing.JMenuItem
+AppWnd ..> javax.swing.JOptionPane
+AppWnd ..> javax.swing.JTextField
+@enduml
